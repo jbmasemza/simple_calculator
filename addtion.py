@@ -5,10 +5,10 @@ def add(*args):
         total = total + num
     return total
 
-print(add(0,0))
-print(add(-1,-1))
-print(add(4,5))    
-print(add(1,2,3,4))
+add(0,0)
+add(-1,-1)
+add(4,5)    
+add(1,2,3,4)
 
 def multiply(num1, *args):
     total = num1
@@ -16,5 +16,5 @@ def multiply(num1, *args):
         total = total * num
     return total
     
-print(multiply(1,2))
-print(multiply(1,2,3,4))
+multiply(1,2)
+multiply(1,2,3,4)
