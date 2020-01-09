@@ -1,5 +1,5 @@
-from addtion import add
-from addtion import multiply
+from simple_calculator import add
+from simple_calculator import multiply
 
 
 def test_add():
